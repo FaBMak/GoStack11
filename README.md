@@ -2,7 +2,7 @@
 
 ## Aquecendo os Motores
 
-### Desafio: Organizando seus Estudos
+### Desafio 1: Organizando seus Estudos
 
 Aqui basicamente, foi incentivada a criação de uma agenda via Notion.
 
@@ -17,6 +17,10 @@ Coisas interessantes sugeridas na agenda:
 ### Backend com Node.js
 
 [Código Fonte](/backend)
+
+### Desafio 2: Conceitos Node.js
+
+[Código Fonte](/desafio-conceitos-nodejs)
 
 
 

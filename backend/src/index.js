@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const { uuid, isUuid } = require('uuidv4');
 
 // Constants
@@ -7,6 +8,7 @@ const HOST = '0.0.0.0';
 const projects = [] ;
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 
 function logRequest (request, response, next) {
