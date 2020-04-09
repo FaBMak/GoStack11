@@ -22,5 +22,12 @@ Coisas interessantes sugeridas na agenda:
 
 [Código Fonte](/desafio-conceitos-nodejs)
 
+### Frontend com React.js
+
+[Código Fonte](/frontend)
+
+### Desafio 3: Conceitos Node.js
+
+[Código Fonte](/desafio-conceitos-reactjs)
 
 
