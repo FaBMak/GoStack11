@@ -74,10 +74,9 @@ app.post("/repositories/:id/like", (request, response) => {
     return response.status(400).json({ error: "Project Id not found"});
   };
 
-  const likes = repositories[repositoryIndex].likes + 1;
-  repositories[repositoryIndex].likes = likes;
-
-  return response.json({ "likes": + likes });
+  repository = repositories[repositoryIndex];
+  repository.likes = ++repository.likes;
+  return response.json(repository);
 });
 
 module.exports = app;
